@@ -1,0 +1,68 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600);
+
+body {
+	font-family: 'Source Sans Pro', serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #62687C;
+	width: 100%;
+}
+
+.container {
+	float: left;
+}
+
+.left {
+	background-color: #F6F6F6;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top: 13%;
+}
+
+#draw-chairs {
+	height: 100vh;
+	padding-left: 8%;
+}
+
+h1 {
+	font-weight: 600;
+	font-size: 24px;
+	color: #62687C;
+}
+
+p {
+	color: #62687C;
+}
+
+#left > div:nth-child(3) > input, #left > div:nth-child(5) > input {
+	color: #4A4A4A;
+	border: 1px solid #C4CDD5;
+}
+
+.button-label {
+	color: #9a9a9a;
+	background-image: linear-gradient(to bottom, #FFFFFF, #F9FAFB);
+}
+
+span.input-group-btn > button {
+	background-color: #FFFFFF;
+	color: #4A4A4A;
+	border: 1px solid #C4CDD5;
+}
+
+button.btn.btn-link {
+	color: #24C4F8;
+}
+
+.btn-single {
+	color: #FFFFFF;
+	background-image: linear-gradient(to bottom, #34C9F9, #24C4F8);
+	border-color: #12B9EF;
+}
+
+.btn-single:hover, .btn-single:focus, .btn-single:active, .btn-single.active, .btn-single.disabled, .btn-single[disabled] {
+	color: #FFFFFF;
+	background-image: linear-gradient(to bottom, #34C9F9, #24C4F8);
+	border-color: #12B9EF;
+}
